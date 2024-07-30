@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Facebook</title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="all" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/icon.ico" media="all" />
+	
+</head>
+<body>
+  <header class="header-area">
+    <div class="midel-area">
+		<div class="logo-area">
+		     <a href=""><img src="images/download (1).png" alt="" /></a>
+		</div>
+		<div class="login-area">
+		  <form action="">
+		      <div class="login-first">
+			       <label for="emil">Email or phone</label>
+				   <input type="text" id="emil" />
+			  </div>
+			  <div class="login-second">
+			        <label for="pass">password</label>
+					<input type="password" id="pass" />
+					<a href="#">Forgotten account?</a>
+			  </div>
+			  <div class="login-submit">
+			       <input type="submit" value="Log In" />
+			  </div>
+		  </form>  
+		</div>
+	</div>	
+  </header>
+  <!-- saignap area -->
+  <section class="section-area">
+      <div class="midel-area">
+	       <div class="section-left">
+		       <p>Facebook helps your connect and share with the people in your life .</p>
+			   <img src="images/ppp.jpg" alt="facebook" />
+		   </div>
+	        <div class="section-right">
+			    <h2>Create an account</h2>
+				<p>It's free and always will be.</p>
+				<form action="inc/reg.php" method="POST" enctype="multipart/form-data">
+				     <div class="username">
+					      <input name="faname" type="text" placeholder="first name" />
+						  <input name="saname" type="text" placeholder="surname"/>
+					 </div>
+					     
+						 <input name="email" type="text" placeholder="Mobile or email adderss "/>
+						 <input name="new-pass" type="text" placeholder="New Password"/>
+						 <input name="pass" type="password" placeholder="confram Password"/>
+						 <div class="birth-day">
+						    <h3>Birthday</h3>
+						    <div class="bbb-option">
+						       <select name="Day" id="">
+							       <option value="">Day</option>
+							       <option value="02">01</option>
+							       <option value="">02</option>
+							       <option value="03">03</option>
+							       <option value="04">04</option>
+								   <option value="05">05</option>
+								   <option value="06">06</option>
+								   <option value="07">07</option>
+								   <option value="08">08</option>
+								   <option value="09">09</option>
+								   <option value="10">10</option>
+								   <option value="11">11</option>
+								   <option value="11">11</option>
+								   <option value="12">12</option>
+								   <option value="13">13</option>
+								   <option value="14">14</option>
+								   <option value="15">15</option>
+								   <option value="16">16</option>
+								   <option value="17">17</option>
+								   <option value="18">18</option>
+								   <option value="19">19</option>
+								   <option value="20">20</option>
+								   <option value="21">21</option>
+								   <option value="22">22</option>
+								   <option value="23">23</option>
+								   <option value="24">24</option>
+								   <option value="25">25</option>
+								   <option value="26">26</option>
+								   <option value="27">27</option>
+								   <option value="28">28</option>
+								   <option value="29">29</option>
+							   </select>
+						       <select name="Month" id="">
+							       <option value="">Month</option>
+							       <option value="01">01</option>
+							       <option value="02">02</option>
+							       <option value="03">03</option>
+							       <option value="04">04</option>
+								   <option value="05">05</option>
+								   <option value="06">06</option>
+								   <option value="07">07</option>
+								   <option value="08">08</option>
+								   <option value="09">09</option>
+								   <option value="10">10</option>
+								   <option value="11">11</option>
+								   <option value="12">12</option>
+								   <option value="13">13</option>
+								   
+							   </select>
+							   <select name="Year" id="">
+							       <option value="">Year</option>
+							       <option value="2000">2000</option>
+							       <option value="2001">2001</option>
+							       <option value="2002">2002</option>
+							       <option value="2003">2003</option>
+							       <option value="2004">2004</option>
+							       <option value="2005">2005</option>
+							       <option value="2006">2006</option>
+							       <option value="2007">2007</option>
+							       <option value="2008">2008</option>
+							       <option value="2009">2009</option>
+							       <option value="2010">2010</option>
+							       <option value="2011">2011</option>
+							       <option value="2012">2012</option>
+							       <option value="2013">2013</option>
+							       <option value="2014">2014</option>
+							       <option value="2015">2015</option>
+							       <option value="2016">2016</option>
+							       <option value="2017">2017</option>
+							       <option value="2018">2018</option>
+							       <option value="2019">2019</option>
+								   <option value="2020">2020</option>
+								   <option value="2021">2021</option>
+								   <option value="2022">2022</option>
+							    </select>
+						    </div>	 
+							 <div class="bbb-link">
+							      <a href="#">Why do Ineed to provide my date of birth?</a>
+							 </div> 
+						 </div>
+						 <div class="PPP">
+							  <label for="pict">Profile Picture</label>
+							  <input name="pic" type="file" id="pict" /> 							  
+						</div> 
+				
+					<div class="gender">
+					     <input value="female" type="radio" id="femil" name="same"/>
+						 <label for="femil">Fenail</label>
+						 
+				         <input value="male" type="radio" id="mail" name="same"/>
+						 <label for="mail">male</label>
+						 
+				         <input value="others" type="radio" id="other" name="same"/>
+						 <label for="other">other</label>
+				         
+					</div>	 
+						 <p class="police">orem Ipsum is simply dummy text of the <a href="#"> printing </a>and typesetting industry.
+						 industry's <a href="#">standard </a>dummy text ever since the 1500s, when an <a href="#">unknown</a> printer
+						 took a gall</p>
+						 <input type="submit" value="Create as account" />
+						 
+				</form>
+				<h4> <a href="#">Create a Fage</a> a celebrity. band business</h4>
+			</div>
+	  </div>
+  </section>
+  
+  
+      <!-- first page footer area -->
+
+
+
+   <footer class="frist-footer">
+	<div class="midel-area">
+   		<div class="language">
+   			<p>
+   				<a href="#">English (UK)</a>  <a href="#">বাংলা</a>               <a href="#">অসমীয়া</a>
+   				<a href="#">हिन्दी</a>         <a href="#">Bahasa Indonesia</a>   <a href="#">नेपाली</a>
+   				<a href="#">中文(简体)</a>    <a href="#">العربية<</a>            <a href="#">Bahasa Melayu</a> 
+   				<a href="#">Español</a>      <a href="#">Bahasa Melayu</a>       <a href="#">Español</a>
+
+   				<button>+</button>
+   			</p>
+   		</div>
+
+   		<hr>
+   		<div class="others">
+   		   	<p>
+   				<a href="#">Cadastre-se</a>       <a href="#">Entrar</a>                <a href="#">Messenger</a>
+   				<a href="#">Facebook Lite</a>     <a href="#">Watch</a>                 <a href="#">Pessoas</a>
+   				<a href="#">Páginas</a>           <a href="#">Categorias de Página</a>  
+   				<a href="#">Locais</a>            <a href="#">Jogos</a>                  <a href="#">Locais</a>
+   				<a href="#">Marketplace</a>       <a href="#">Facebook Pay</a>           <a href="#">Grupos</a>
+   				<a href="#">Vagas de emprego</a>  <a href="#">Oculus</a>                 <a href="#">Portal</a>
+   				<a href="#">Instagram</a>         <a href="#">Local</a> 
+   				<a href="#">Campanhas de arrecadação de fundos</a>                       <a href="#">Serviços</a> 
+   				<a href="#">Central de Informações de Votação</a>
+   				<a href="#">Sobre</a>             <a href="#">Criar anúncio</a>          <a href="#">Criar Página</a>
+   				<a href="#">Desenvolvedores</a>   <a href="#">Carreiras</a>              <a href="#">Privacidade</a>
+   				<a href="#">Cookies</a>           <a href="#">Escolhas para anúncios</a> 
+   				<a href="#">Termos</a>            <a href="#">AjudaConfigurações</a>      
+
+   		</div>
+   			
+   		<div class="copy">
+   			<p>Facebook © 2020</p>
+   		</div>	
+   		
+	</div> 
+   </footer>
+  
+  
+  
+  
+  
+  
+  
+</body>
+</html>

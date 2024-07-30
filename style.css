@@ -1,0 +1,209 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:Helvetica,Arial,sans-serif;
+}
+.header-area{
+	background:#3B5998;
+	padding:20px;
+	
+}
+.logo-area a{
+	margin-top:10px;
+	display:block;
+}
+.midel-area{
+   width:80%;
+   margin:auto;
+}
+.logo-area{
+	width:50%;
+	float:left;
+}
+.login-area{
+	width:50%;
+	float:left;
+	padding-top:40px;
+}
+.header-area:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.login-first{
+	float:left;
+}
+.login-second{
+	float:left;
+}
+.login-submit{
+	float:left;
+}
+.login-area:after{
+  content:'';
+  display:block;
+  clear:both;
+}
+.login-area input{
+	display:block;
+	margin-right:10px;
+	font-size:13px;
+}
+.login-area label{
+	color:#fff;
+	font-size:20px; 
+	cursor:pointer;
+	margin-bottom:5px;
+	display:block;	
+}
+.login-second a{
+	color:#9cb4d8;	
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+.login-submit input{
+	background:#4267b2;
+	border:1px solid #4267b2;
+	color:#fff;
+	margin-top:28px;
+	cursor:pointer;	
+}
+.login-submit input:hover{
+	background:#365899;
+	border:1px solid #365899;	
+}
+/* signap area start from hare */
+.section-left{
+	width:60%;
+	float:left;
+}
+.section-right{
+	width:40%;
+	float:left;
+}
+.section-area:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.section-area{
+	background:linear-gradient(#fff,#D4D9e8);
+}
+.section-left p{
+	color:#0E388A;
+	font-size:20px;
+	font-weight:bold;
+	width:80%;
+}
+.section-left img{
+	width:80%;
+}
+.section-right h2{
+	color:#333333;
+	font-size:35px;
+	margin-bottom:0px;
+}
+.section-right> p{
+   color:#333;
+   font-size:20px;
+   margin:10px 0;
+}
+.section-right input[type=text],.section-right input[type=password]{
+	width:100%;
+	font-size:16px;
+	padding:5px;
+	margin:5px 0;
+	border-radius:3px;
+	border:1px solid #bdc7d8;
+	box-sizing:border-box;
+}
+.section-right .username:after{
+    content:'';
+	display:block;
+	clear:both;
+}
+.section-right .username input:nth-child(1){
+	width:49%;
+	float:left;
+}
+.section-right .username input:nth-child(2){
+	width:49%;
+	float:right;
+}
+.birth-day h3{
+	color:#333;
+	font-size:20px;
+	margin:5px 0;
+	font-weight:normal;
+}
+.birth-day select{
+	padding:3px;
+	font-size:15px;
+	border:1px solid #bdc7d8;
+}
+.birth-day:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.bbb-option{
+	float:left;
+	margin-right:3px;
+}
+.bbb-link{
+	float:right;
+	width:150px;
+}
+.bbb-link a{
+	color:#365899;
+	font-size:12px;	
+}
+
+.gender label{
+	color:#333;
+	cursor:pointer;
+	font-size:20px;
+	margin-top:10px;
+	display:inline-block;
+}
+p.police{
+	font-size:11px;
+	color:#777;
+	width:75%;
+}
+p.police a{
+	color:#365899;
+}
+.section-right input[type="submit"]{
+	background: linear-gradient(#67A259,#578843);
+	padding:10px 40px;
+	font-size:18px;
+	color:#fff;
+    border-color:#3b6e22 #3b6e22 #2c5115;
+	border-radius:5px;
+	cursor:pointer;
+	
+}
+.section-right input[type="submit"]:hover{
+	background: linear-gradient(#578843,#67A259);
+}
+.section-right h4{
+	color:#666;
+	font-size:12px;	
+}
+.section-right h4 a{
+	color:#365899;
+}
+.frist-footer.midel-area{
+   width:80%;
+   margin:auto;
+}
+
+
+
+
+
